@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-mail Editor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+                <h2>Compose e-mail message</h2>
+            <form method="post" action="Status.html">
+            <div class="form">
+                <Label>To:</Label>
+                <input required="true" type="email" name="to" class="EmailEditor">
+            </div>
+            <div class="form">
+                <Label>From:</Label>
+                <input required="true" type="email" name="from" class="EmailEditor">
+            </div>
+            <div class="form">
+                <Label>Cc:</Label>
+                <input required="true" type="email" name="cc" class="EmailEditor">
+            </div>
+            <div class="form">
+                <Label>Subject:</Label>
+                <input required="true" type="text" name="subject" class="EmailEditor">
+            </div>
+            <div class="form">
+                <Label>Message</Label>
+                <textarea required="true" name="subject" rows="5"></textarea class="EmailEditor">
+            </div>
+            <div class="button">
+                <button class="but1" type="submit">Send</button>
+                <button type="reset">Cancel</button>
+            </div>
+        </div>
+        <div class="help">
+            <a href="help.html"><img src="Help.jpg" alt=""></a>
+        </div>
+    </div>
+    
+</body>
+</html>

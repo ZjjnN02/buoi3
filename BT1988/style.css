@@ -1,0 +1,71 @@
+body{
+	background-color: rgb(255,255,240);
+	margin-left: 30%;
+	padding: 50px;
+}
+
+.main{
+	width: 400px;
+	background-color: #DDFFEE;
+	padding: 10px;
+	display: block;
+
+}
+.container{
+	display: flex;
+}
+
+.email-edit{
+	background-color: #FFFFDD;
+}
+
+textarea{
+	background-color: #FFFFDD;
+}
+
+.form label{
+	width: 20%;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.form{
+	width: 100%;
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.form input, .form textarea {
+	width: 75%;
+	border: solid 2px #E4E7E7;
+}
+
+.button{
+	width: 50%;
+	display: flex;
+	margin-left: 21%;
+}
+
+.help{
+	padding: 35px;
+}
+
+.but1{
+	margin-right: 5px;
+}
+
+ul{
+	list-style-image: url(bullet.jpg);
+}
+
+.main2{
+	background-color: #d9ffdf;
+	width: 50%;
+	list-style-position: inside;
+}
+
+.closebutton{
+	color: red;
+	margin-left: 90%;
+}

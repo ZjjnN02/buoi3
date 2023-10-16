@@ -1,0 +1,29 @@
+a {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(227, 32, 32);
+    color: white;
+}
+
+a:before {
+    content: "+Open ";
+}
+
+.menu {
+    background-color: blueviolet;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+li {
+    border-bottom: solid 1px white;
+    padding: 10px;
+    cursor: pointer;
+}
+
